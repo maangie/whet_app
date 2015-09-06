@@ -1,4 +1,5 @@
 Rails.application.routes.draw do
+  root 'greeting#pique'
   get 'greeting/pique'
 
   # The priority is based upon order of creation: first created ->
